@@ -8,3 +8,8 @@ app.use(bodyParser.json());
 
 // Keep the medical bills in memory
 let medicalBills = [];
+
+// GET /items: returns a list of medical bills
+app.get('/items', (req, res) => {
+    res.json(medicalBills);
+});
