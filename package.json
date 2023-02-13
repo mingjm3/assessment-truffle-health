@@ -1,0 +1,23 @@
+{
+  "name": "assessment-truffle-health",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingjm3/assessment-truffle-health.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingjm3/assessment-truffle-health/issues"
+  },
+  "homepage": "https://github.com/mingjm3/assessment-truffle-health#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
