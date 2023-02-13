@@ -21,3 +21,7 @@ app.post('/items', (req, res) => {
     medicalBills.push(newMedicalBill);
     res.status(201).json(newMedicalBill);
 });
+
+app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
+});
