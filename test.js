@@ -12,11 +12,11 @@ describe('GET /items', () => {
 describe('POST /items', () => {
   it('should create a new medical bill', async () => {
     const newBill = {
-      patientName: 'John Doe',
-      patientAddress: '123 Main St',
-      hospitalName: 'General Hospital',
+      patientName: 'Mike',
+      patientAddress: '123 Street',
+      hospitalName: 'The first hospital',
       dateOfService: '2022-01-01',
-      billAmount: 1000
+      billAmount: 100
     };
     const res = await request(app).post('/items').send(newBill);
     expect(res.statusCode).toEqual(201);
